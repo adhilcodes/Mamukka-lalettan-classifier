@@ -4,8 +4,8 @@ This is a web app to classify whether an image is of Mamukka or Lalettan. This P
 ![image](https://user-images.githubusercontent.com/65992809/118422630-38192180-b6e1-11eb-8ca7-cd1ec616fbe4.png)
 
 ## Dataset used
- - Scraped from Google search using selenium automation
-
+ - Scraped images of 2 classes(Mammuka&Lalettan) from Google search using selenium automation
+ - [Click Here](./scraping_data) to get the scraped Data
  - [Click Here](./scraping_data) to get the Code to scrape image data from Google search
 
 ## Libraries&Tech stacks Used:
