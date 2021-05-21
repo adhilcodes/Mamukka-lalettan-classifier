@@ -25,6 +25,11 @@ This is a web app to classify whether an image is of Mamukka or Lalettan. This P
  - Deep Learning model building : [Link to the Notebook]()
  - Deployed using Python Flask and hosted on Heroku
 
+## Machine Learning model Evaluation
+
+![](./.data/acuu.png)
+![](./.data/loss.png)
+
 ## Project Created by:
 
 [Abdul Adhil PK](https://github.com/adhilcodes)
