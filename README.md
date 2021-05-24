@@ -34,4 +34,4 @@ This is a web app to classify whether an image is of Mamukka or Lalettan. This P
 
 [Abdul Adhil PK](https://github.com/adhilcodes)
 
-[Muhammed Nazeem C](https://github.com/nazeem-c)
+[Mohammed Nazeem C](https://github.com/nazeem-c)
