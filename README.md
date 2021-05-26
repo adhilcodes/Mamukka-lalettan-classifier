@@ -9,7 +9,7 @@ This is a web app to classify whether an image is of Mamukka or Lalettan. The us
 
 ![image](https://user-images.githubusercontent.com/65992809/118422630-38192180-b6e1-11eb-8ca7-cd1ec616fbe4.png)
 
-### **Demo of the project -** See the product walkthrough [here](https://www.loom.com/share/6103aeee1938495c820ea79ecbd96b50)
+### **Demo of the project -** See the product walkthrough [here](https://www.loom.com/share/3f6d984d117542e2b33257d6424d74a8)
 
 
 ## Dataset used
