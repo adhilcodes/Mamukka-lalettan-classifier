@@ -38,6 +38,20 @@ This is a web app to classify whether an image is of Mamukka or Lalettan. The us
 ![](./.data/acuu.png)
 ![](./.data/loss.png)
 
+## Setup in Local Machine
+
+**1.** Ensure that you are in the project home directory(Flask app). Create the machine learning model by running below command -
+'python app.py'
+
+**2.** Run app.py using below command to start Flask API
+'python app.py'
+By default, flask will run on port 5000.
+
+**3.** Navigate to URL `http://localhost:5000`
+You should be able to view the homepage webapp
+
+**3.** upload the image and hit submit button.
+
 ## Project Created by:
 
  **Team ID :** BFH/recgv3c8HwoyDEGBA/2021
