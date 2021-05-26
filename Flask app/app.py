@@ -14,7 +14,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = '/home/adhil/Desktop/Lab/Flask app/model/inceptionv3.h5'
+MODEL_PATH = '/home/adhil/Desktop/Lab/Flask_app/model/model.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
@@ -32,11 +32,12 @@ def model_predict(img_path, model):
 def index():
     return render_template('index.html')
 
+
 @app.route('/predict', methods=['GET', 'POST'])
 def upload():
     if request.method == 'POST':
         f = request.files['file']
-        basepath = os.path.dirname("/home/adhil/Desktop/Lab/Flask app/uploads/1mammuka.jpeg")
+        basepath = os.path.dirname(__file__)
         file_path = os.path.join(
             basepath, 'uploads', secure_filename(f.filename))
         f.save(file_path)
